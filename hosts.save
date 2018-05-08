@@ -1,0 +1,12 @@
+#[web]
+#web01 ansible_host=10.107.2.156 ansible_connection=ssh ansible_user=meet ansible_ssh_pass=einfochips
+#web02 ansible_host=10.107.3.47  ansible_connection=ssh ansible_user=keyur  ansible_ssh_pass=einfochips@123
+
+#[control]
+#local_host ansible_host=10.107.0.105 ansible_connection=local
+
+[docker]
+dock01 ansible_host=172.17.0.3 ansible_connection=ssh ansible_user=root ansible_ssh_pass=screencast ansible_ssh_host_key_checking=trueansible_ssh_host_key_checking=true
+dock02 ansible_host=172.17.0.4 ansible_connection=ssh ansible_user=root ansible_ssh_pass=screencast
+dock03 ansible_host=172.17.0.5 ansible_connection=ssh ansible_user=root ansible_ssh_pass=screencast
+dock06 ansible_host=172.17.0.6 ansible_connection=ssh ansible_user=root ansible_ssh_pass=screencast
